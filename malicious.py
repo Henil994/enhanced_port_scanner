@@ -1,1 +1,0 @@
-eval("malicious_code")

@@ -1,2 +1,2 @@
 Open TCP Ports and Banners:
-Port 80: 
+Port 22: SSH-2.0-OpenSSH_10.0p2 Debian-5
