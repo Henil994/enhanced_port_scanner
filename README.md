@@ -1,20 +1,22 @@
-# 🛡️ Simple Malware Scanner in Python
+# 🛡️ Simple Malware Scanner
 
-A basic command-line malware scanner built with Python for scanning files and directories for suspicious patterns.
-
-> 🎯 Built for: Cybersecurity learning, automation practice, and portfolio projects.  
-> 🧠 Intended for ethical, educational use only.
+A basic Python-based malware scanner that recursively checks files in a directory for suspicious code patterns commonly found in malware, such as use of `eval()`, `base64`, `powershell`, and more.
 
 ---
 
-## 🔍 What It Does
+## 🚀 Features
 
-This tool scans a directory recursively for:
-
-- Suspicious keywords (e.g., `powershell`, `cmd.exe`, `eval`, `base64`, etc.)
-- Potential indicators of obfuscated code or embedded payloads
+- Scans files for suspicious keywords
+- Recursive directory scanning
+- Detects simple obfuscation and shell activity
+- Lightweight and easy to understand
+- Perfect for learning cybersecurity automation
 
 ---
 
-## 📁 Project Structure
+## 📁 Usage
 
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/Henil994/malware_scanner.git
+   cd malware_scanner
