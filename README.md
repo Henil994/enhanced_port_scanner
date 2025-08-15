@@ -1,43 +1,29 @@
-# 🌐 Port Scanner
+**Multithreaded TCP/UDP port scanner with GUI**
 
-[![Python](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/)
-[![Security](https://img.shields.io/badge/Security-Network%20Scanning-red.svg)]()
+[![Python](https://img.shields.io/badge/Python-3.10-blue.svg)]()
 [![Tests](https://img.shields.io/badge/Tests-Pytest-green.svg)]()
 
-## 📌 Overview
+## Overview
 
-A fast and lightweight TCP port scanner built in Python. Designed for quick reconnaissance and automated network testing.
+Python-based port scanner with banner grabbing and a Tkinter GUI, designed for quick network reconnaissance.
 
-## 🚀 Features
+## Features
+- Fast multithreaded scans
+- TCP/UDP support
+- GUI interface
+- Saves output to `output.txt`
 
-- Scan single or multiple IP addresses
-- Adjustable timeout and thread count
-- Export scan results to `result.txt`
-- Works on Linux, macOS, and Windows
-
-## 📂 Project Structure
-
-Port-Scanner/
-│── scanner.py # Main port scanning script
-│── tests/ # Automated test cases
-│── result.txt # Sample output
-│── requirements.txt
-│── README.md
-
-
-## 🧪 Automated Testing
+## Automated Testing
 
 pytest
 
-🖥 Sample Output
+## Sample Output
 
-[2025-08-15 12:10:00] Scanning target: 192.168.0.1
-Open ports: 22, 80, 443
-Scan completed in 2.35s
+Scan completed: Open ports 22, 80, 443
 
-⚙ Installation
+## Installation
 
-git clone https://github.com/Henil994/Port-Scanner.git
-cd Port-Scanner
+git clone https://github.com/Henil994/enhanced_port_scanner.git
+cd enhanced_port_scanner
 pip install -r requirements.txt
-python scanner.py
+python port_scanner.py
